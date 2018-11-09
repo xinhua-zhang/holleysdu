@@ -91,7 +91,6 @@ namespace AppSvr
             {
                 for (int i = 0; i < dtInfo.Rows.Count; i++)
                 {
-                    //testtesttest
                     CTIOT_APP_PARA ctiot_app_para = new CTIOT_APP_PARA();
                     string strID = dtInfo.Rows[i]["ID"].ToString().Trim();
                     ctiot_app_para.SVR_IP = dtInfo.Rows[i]["SVR_IP"].ToString().Trim();
